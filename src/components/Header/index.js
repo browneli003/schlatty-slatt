@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../Nav";
-import coverImage from "../../assests/cover/cover-image.jpg"
+import coverImage from "../../assets/cover/cover-image.jpg"
+import "./style.css";
 
 function Header() {
     
@@ -10,7 +11,16 @@ function Header() {
         
             My Portfolio
           
-        {/*<Nav/> */}
+            <nav>
+<ul id="nav" className="nav">
+     <li>
+      <a href="#About-Me">About Me</a>    
+     </li>   
+     <li>
+      <a href="#Contact">Contact</a>
+     </li>
+</ul>
+</nav>
         </h1>
         <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
         </section>
