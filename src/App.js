@@ -1,20 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import About from './components/Project';
-import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">    
-      <Header />
-
-   
-      <About />
-
-      <Footer />
-      </div>
+    <div className="app">  
+    top
+    sec -intro -portfolio   
+    </div>
   );
 }
 
